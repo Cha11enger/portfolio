@@ -1,0 +1,264 @@
+<!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio section-bg">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Portfolio</h2>
+      <p>These are some of my portfolio projects that I developed</p>
+    </div>
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-card">Card</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+      </div>
+    </div>
+
+    <span class="bar-title mb-5"></span>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-aos="flip-up">
+        <!-- <div class="portfolio-wrap"> -->
+          <!-- <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="App 1"><i class="bx bx-plus"></i></a>
+            <button (click)="detailOnClick('teamTraveler')" type="button" class="btn btn-primary">+ Détail projet</button>
+          </div>
+          <div *ngIf="teamTravelerIsShown" class="mt-3">
+            <p>L'application vous permettra d'organiser des voyage en groupe facilement et rapidement. Votez pour les dates, les
+              transports, hébergement ou même les activités.
+              Grâce à cette <a title="Télécharger sur Google Play"
+                href="https://play.google.com/store/apps/details?id=team.traveler.teamtraveler">application</a> plus de problème
+              de choix ou désaccords.</p> -->
+              <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
+                  <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  "
+                    [ngStyle]="{backgroundImage:'url(assets/images/voyages.webp)'}">
+                  </div>
+                  <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
+                    <a href="assets/images/voyages.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                      title="Mes Voyages"><i class="bx bx-zoom-in bx-md"></i></a>
+                    <a href="assets/images/voyage.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                      title="Détail du voyage"></a>
+                    <a href="assets/images/logements.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                      title="Mes Logements"></a>
+                    <a href=""
+                      title="tech" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+                  </div>
+                </div>
+
+                <div class="card-body">
+                  <h3 class="card-title">Comming soon</h3>
+                  <h5 class="card-title"><strong>Technologies:</strong> </h5>
+                  <p class="card-text">Angular, FireBase</p>
+                  <div class="d-flex flex-row justify-content-center">
+
+                    <button href="" target="_blank"
+                      class="btn btn-primary mr-3">Code Source</button>
+                   <button (click)="detailOnClick('teamTraveler')" type="button" class="btn btn-primary">+ Project Details</button>
+
+                  </div>
+                  <div *ngIf="teamTravelerIsShown" class="mt-3">
+                    <p>Comming soon <a title="Crud"
+                        href="">application</a></p>
+                  </div>
+                </div>
+          </div>
+        <!-- </div> -->
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web"  data-aos="flip-up">
+        <!-- <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="App 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div> -->
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
+            <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  "
+              [ngStyle]="{backgroundImage:'url(assets/images/voyages.webp)'}">
+            </div>
+            <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
+              <a href="assets/images/voyages.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Voyages"><i class="bx bx-zoom-in bx-md"></i></a>
+              <a href="assets/images/voyage.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Détail du voyage"></a>
+              <a href="assets/images/logements.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Logements"></a>
+              <a href=""
+                title="App" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h3 class="card-title">Comming soon</h3>
+            <h5 class="card-title"><strong>Technologies:</strong> </h5>
+            <p class="card-text">Nodejs, Express, mongodb</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="" target="_blank" target="_blank" type="button"
+                class="btn btn-primary mr-3">Code Source</a><span>
+              <button (click)="detailOnClick('mauticMonitoring')" type="button" class="btn btn-primary">+ Project Details</button></span>
+            </div>
+            <div *ngIf="mauticMonitoringIsShown" class="mt-3">
+              <p>Comming soon <a title="tech"
+                  href="">application</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-aos="flip-up">
+        <!-- <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Card 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Web 2"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div> -->
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" >
+          <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
+            <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  "
+              [ngStyle]="{backgroundImage:'url(assets/images/voyages.webp)'}">
+            </div>
+            <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
+              <a href="assets/images/voyages.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Voyages"><i class="bx bx-zoom-in bx-md"></i></a>
+              <a href="assets/images/voyage.webp" data-gall="tech" class="venobox vbox-item"
+                title="Détail du voyage"></a>
+              <a href="assets/images/logements.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Logements"></a>
+              <a href=""
+                title="tech" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h3 class="card-title">Comming soon</h3>
+            <h5 class="card-title"><strong>Technologies:</strong> </h5>
+            <p class="card-text">Portfolio</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="" target="_blank" target="_blank" type="button"
+                class="btn btn-primary mr-3">Code Source</a>
+              <button (click)="detailOnClick('pokedex')" type="button" class="btn btn-primary">+ Project Details</button>
+            </div>
+            <div *ngIf="pokedexIsShown" class="mt-3">
+              <p>Comming soon <a title="tech"
+                  href="">application</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <!-- <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="App 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-aos="flip-up">
+        <!-- <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Card 1"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Card 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div> -->
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+          <div class="card-header d-flex flex-column " style="height: 300px;width: 100%; ">
+            <div id="teamTraveler-img" class="img-wrap" style="height: 300px;width: 100%;  "
+              [ngStyle]="{backgroundImage:'url(assets/images/voyages.webp)'}">
+            </div>
+            <div id="teamTraveler-link" class="links mt-auto d-flex justify-content-center">
+              <a href="assets/images/voyages.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Voyages"><i class="bx bx-zoom-in bx-md"></i></a>
+              <a href="assets/images/voyage.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Détail du voyage"></a>
+              <a href="assets/images/logements.webp" data-gall="teamTravelerGallery" class="venobox vbox-item"
+                title="Mes Logements"></a>
+              <a href=""
+                title="tech" target="_BLANK"><i class="bx bx-link bx-md"></i></a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h3 class="card-title">Comming soon</h3>
+            <h5 class="card-title"><strong>Technologies:</strong> </h5>
+            <p class="card-text">Comming soon</p>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="" target="_blank" target="_blank" type="button"
+                class="btn btn-primary mr-3">Code Source</a>
+              <button (click)="detailOnClick('portfolio')" type="button" class="btn btn-primary">+ Project Details</button>
+            </div>
+            <div *ngIf="portfolioIsShown" class="mt-3">
+              <p>Comming soon <a title="tech"
+                  href="">application</a> .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <!-- <div class="portfolio-wrap">
+          <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+          <div class="portfolio-links">
+            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+              title="Web 3"><i class="bx bx-plus"></i></a>
+            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+          </div>
+        </div> -->
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- End Portfolio Section -->
